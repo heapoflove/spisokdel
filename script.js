@@ -16,7 +16,7 @@ function addTask() {
     const task = input.value
 
     const myList = document.getElementById('list')
-    myList.innerHTML = myList.innerHTML + '<li>' + task + '<li>'
+    myList.innerHTML = myList.innerHTML + '<li>' + task + '</li>'
     input.value = ""
 
 }
